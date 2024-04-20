@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NR</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="IMG/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="IMG/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="IMG/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="IMG/favicon_io/site.webmanifest">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo"><h1>NUR4A.KG</h1></div>
+            
+      <button class="hamburger">&#9776;</button>
+       <nav class="nav-links">
+               <a href="about.html">О нас</a>
+         <a href="menu.html">Продукция</a>
+             <a href="./awards.html">биздин сыйлыктарыбыз</a>
+     <a href="contact.html">Байланыш</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section about">
+            <div class="container">
+  <h1>NUR4A.KG сайтына кош келиңиз</h1>
+  <p>Фитнес максаттарыңызга жетүүгө жардам берүү үчүн биз жогорку <br> сапаттагы спорттук тамактанууну камсыз <br>кылабыз. Кыргызстан, Казакстан жана Узбекстан боюнча жеткиребиз.</p>
+            </div>
+        </section>
+
+        <section id="products" class="section products">
+            <div class="container">    
+          <h2>Биздин продукциялар</h2>
+                <div class="product-cards">
+                  <article class="prod-card">
+                    <h3>ПРОТЕИН</h3>
+        <p>Булчуң ткандарынын өсүшүнө жана калыбына келишине көмөктөшөт.</p>
+                    </article>
+                    <article class="prod-card">
+                        <h3>BCAA</h3>
+          <p>Машыгуудан кийин жалпы калыбына келтирүүнү колдойт.</p>
+                    </article>
+                    <article class="prod-card">
+           <h3>Креатин</h3>
+                        <p>Күчтү жана булчуң массасын жогорулатуу үчүн эффективдүү кошумча.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="advantages" class="section advantages">
+            <div class="container">
+         <h2>Биздин артыкчылыктар</h2>
+            <ul>
+            <li>Жогорку сапаттагы буюмдар.</li>
+           <li>Илимий жактан далилденген композиция.</li>
+           <li>Кесипкөй спортчулардын сунуштары.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Байланыштар</h2>
+                <p>Телефон: +996 709 708 408</p>
+                <p>program.nr@gmail.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p> Азия боюнча мыкты 2010-2024</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var hamburger = document.querySelector('.hamburger');
+            var navLinks = document.querySelector('.nav-links');
+        
+            hamburger.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+        </script>
+        
+    <script src="script.js"></script>
+</body>
+</html>
